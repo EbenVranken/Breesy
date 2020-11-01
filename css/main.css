@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121011;
+    height: 100%;
+}
+
+.nav-link i,
+.navbar-brand i {
+    margin-right: 5px;
+}
+
+.navbar-brand {
+    font-family: 'Lato Black', sans-serif;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: 'Lato Regular', sans-serif;
+    margin-left: 37.5px;
+}
+
+.navbar-nav:last-child {
+    margin-right: 37.5px;
+}
+
+#error {
+    text-align: center;
+    color: #ff5000;
+    border: 2px solid #ff5000;
+    padding: 10px;
+    border-radius: 25px;
+    width: 150px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.searchbox {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-family: 'Lato Regular', sans-serif;
+}
+
+.searchbox-input {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 25px;
+}
+
+.searchbox-input:focus {
+    outline: none;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 15px 20px;
+}
+
+.card #temperature {
+    margin-top: 35px;
+}
+
+.card h1 {
+    font-family: 'Lato Regular', sans-serif;
+}
+
+.card span {
+    font-family: 'Lato Light', sans-serif;
+}
+
+.card hr {
+    width: 75%;
+    background: white;
+}
+
+.card a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.card a:hover {
+    text-decoration: underline dotted;
+}
+
+.card i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.bluebg {
+    background: rgb(46, 134, 171);
+    background: linear-gradient(135deg, rgba(46, 134, 171, 1) 0%, rgba(110, 184, 216, 1) 100%);
+}
+
+.redbg {
+    background: rgb(245, 93, 62);
+    background: linear-gradient(135deg, rgba(245, 93, 62, 1) 0%, rgba(250, 173, 158, 1) 100%);
+}
+
+.greenbg {
+    background: rgb(155, 186, 120);
+    background: linear-gradient(135deg, rgba(155, 186, 120, 1) 0%, rgba(196, 214, 176, 1) 100%);
+}
+
+@media screen and (min-width:991px) {
+    .navbar-brand {
+        margin-left: 37.5px;
+    }
+}
+
+@media screen and (max-width:990px) {}
